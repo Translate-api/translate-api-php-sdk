@@ -1,0 +1,29 @@
+{
+    "name": "translate-api/client",
+    "description": "Official PHP SDK for Translate API - Easy text translation",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["translate", "translation", "api", "sdk", "language", "i18n"],
+    "homepage": "https://translate-api.com",
+    "support": {
+        "docs": "https://translate-api.com/documentation",
+        "email": "support@translate-api.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "TranslateAPI\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "authors": [
+        {
+            "name": "Translate API",
+            "email": "support@translate-api.com",
+            "homepage": "https://translate-api.com"
+        }
+    ]
+}
